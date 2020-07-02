@@ -1,0 +1,35 @@
+{
+  "name": "prop-types-prod",
+  "version": "0.1.0",
+  "description": "✅ Runtime type checking for production",
+  "keywords": [
+    "props",
+    "validation",
+    "type-check",
+    "type",
+    "✅"
+  ],
+  "author": "omrilotan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omrilotan/prop-types-prod.git"
+  },
+  "homepage": "https://omrilotan.com/prop-types-prod/",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'spec.js'",
+    "lint": "eslint . --ext .js"
+  },
+  "dependencies": {
+    "prop-types": "*"
+  },
+  "devDependencies": {
+    "@omrilotan/eslint-config": "latest",
+    "chai": "latest",
+    "clear-module": "latest",
+    "eslint": "latest",
+    "eslint-plugin-log": "latest",
+    "mocha": "latest"
+  }
+}
